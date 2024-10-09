@@ -2,14 +2,15 @@
 Replace CMPortugal certain users' commentaries with random facts
 
 ## Instructions
-1. Install TamperMonkey extension from Extensions store;
-2. Add new script;
-3. Open "comment-replace.js" in GitHub;
-4. Click on "Raw";
-5. Copy all content;
-6. Paste in TamperMonkey's script editor;
-7. Save (CTRL+S);
-8. Done!
+1. Set the browser to developer mode (if applicable);
+2. Install TamperMonkey extension from Extensions store;
+3. Add new script;
+4. Open "comment-replace.js" in GitHub;
+5. Click on "Raw";
+6. Copy all content;
+7. Paste in TamperMonkey's script editor;
+8. Save (CTRL+S);
+9. Done!
 
 ### To add more users to block list
 1. Edit script in TamperMonkey;
