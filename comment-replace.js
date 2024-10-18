@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CMPT User Comment Replace
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      2.0
 // @description  substituir comentários de certos users por factos aleatórios
 // @author       rcoelho14
 // @match        https://www.cmportugal.com/*
