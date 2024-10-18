@@ -13,7 +13,7 @@
 (async function () {
     'use strict';
 
-    const userList = ['Sima01', 'Santon', 'AVB2024', 'Bug', 'Tibraco']
+    const userList = ['Sima01']
     const getComment = document.querySelectorAll('article.ipsComment > aside.ipsComment_author > h3 > strong > a')
     const getQuote = document.querySelectorAll('blockquote');
 
