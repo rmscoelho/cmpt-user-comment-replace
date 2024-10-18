@@ -20,8 +20,6 @@
     //Escolha entre: facts/aleixo/renato/senhorPe/beatriz/inspirational/jokes/biblia/memes/capybaraFacts/capybaraImages
     const quoteType = 'capybaraImages'
 
-    console.log(await randomFacts(quoteType))
-
     // Replace comments from user with random facts
     for (const element of getComment) {
         let commentParent = element.parentElement.parentElement.parentElement.parentElement;
