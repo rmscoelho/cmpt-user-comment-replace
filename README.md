@@ -20,6 +20,6 @@ Replace CMPortugal certain users' commentaries with random facts
 
 ### Change the replacement content
 1. Edit script in TamperMonkey;
-2. In the variable ```const quoteType = 'facts' ``` inside the brackets change the value to any of the following ```facts/aleixo/renato/senhorPe/beatriz/inspirational/jokes/biblia/memes/capybaraFacts/capybaraImages```;
+2. In the variable ```const quoteType = 'facts'``` change the value to any of the following ```facts/aleixo/renato/senhorPe/beatriz/inspirational/jokes/biblia/memes/capybaraFacts/capybaraImages```;
 3. Save (CTRL+S);
 4. Done!
