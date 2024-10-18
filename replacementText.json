@@ -2635,6 +2635,6 @@
     "Capybaras are incredibly adaptive and have been found in a variety of habitats, from dry grasslands to lush rainforests."
   ],
   "capybaraImages": [
-    "https://api.capy.lol/v1/capybara?json=true"
+    "https://api.capy.lol/v1/capybara"
   ]
 }
