@@ -21,7 +21,7 @@
     const quoteType = 'capybaraImages'
 
     //Alterar replaceUserName para false para desligar a customização/ Alterar newUserName para o nome pretendido
-    const replaceUserName = true;
+    const replaceUserName = false;
     const newUserName = 'Sr. Vitor'
 
     // Replace comments from user with random facts
