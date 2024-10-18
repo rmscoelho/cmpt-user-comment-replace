@@ -18,7 +18,7 @@
     const getQuote = document.querySelectorAll('blockquote');
 
     //Escolha entre: facts/aleixo/renato/senhorPe/beatriz/inspirational/jokes/biblia/memes/capybaraFacts/capybaraImages
-    const quoteType = 'capybaraImages'
+    const quoteType = 'facts'
 
     //Alterar replaceUserName para false para desligar a customização/ Alterar newUserName para o nome pretendido
     const replaceUserName = false;
