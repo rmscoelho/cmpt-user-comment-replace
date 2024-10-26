@@ -53,7 +53,7 @@
     }
 })();
 
-async function randomFacts(quoteType = 'memes') {
+async function randomFacts(quoteType = 'facts') {
     const data = {
         "facts": [
             "The speed of light is generally rounded down to 186,000 miles per second. In exact terms it is 299,792,458 m/s.",
@@ -2691,6 +2691,7 @@ async function randomFacts(quoteType = 'memes') {
             "Capybaras are incredibly adaptive and have been found in a variety of habitats, from dry grasslands to lush rainforests."
         ],
         "capybaraImages": [
+            "https://random.imagecdn.app/v1/image?width=500&height=500&category=capybaras&format=image",
             "https://api.capy.lol/v1/capybara/1",
             "https://api.capy.lol/v1/capybara/2",
             "https://api.capy.lol/v1/capybara/3",
@@ -2993,6 +2994,13 @@ async function randomFacts(quoteType = 'memes') {
             "https://api.capy.lol/v1/capybara/300"
         ],
         "animals": [
+            "https://random.imagecdn.app/v1/image?width=500&height=500&category=animals&format=image",
+            "https://random.imagecdn.app/v1/image?width=500&height=500&category=dogs&format=image",
+            "https://random.imagecdn.app/v1/image?width=500&height=500&category=capybaras&format=image",
+            "https://random.imagecdn.app/v1/image?width=500&height=500&category=cats&format=image",
+            "https://random.imagecdn.app/v1/image?width=500&height=500&category=turtles&format=image",
+            "https://random.imagecdn.app/v1/image?width=500&height=500&category=birds&format=image",
+            "https://random.imagecdn.app/v1/image?width=500&height=500&category=fishes&format=image",
             "https://api.capy.lol/v1/capybara/1",
             "https://api.capy.lol/v1/capybara/2",
             "https://api.capy.lol/v1/capybara/3",
@@ -4354,7 +4362,6 @@ async function randomFacts(quoteType = 'memes') {
             "https://cataas.com/cat",
 
         ],
-
     }
 
     return data[quoteType][Math.floor((Math.random() * data[quoteType].length))]
